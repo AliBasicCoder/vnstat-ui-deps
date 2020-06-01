@@ -1,0 +1,21 @@
+{
+  "name": "vnstat-ui-deps",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/AliBasicCoder/vnstat-ui-deps.git",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "doc": "typedoc --plugin typedoc-plugin-markdown"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "convert-size": "^1.0.7"
+  },
+  "devDependencies": {
+    "typedoc": "^0.17.7",
+    "typedoc-plugin-markdown": "^2.2.17",
+    "typescript": "^3.9.3"
+  }
+}
