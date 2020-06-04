@@ -14,7 +14,7 @@
 
 ▸ **getMonthlyData**(`data`: [VnstatData](_types_.md#vnstatdata), `interfaceName`: string): *[Data](_types_.md#data)*
 
-Defined in calculators/getters/monthly.ts:11
+*Defined in [calculators/getters/monthly.ts:11](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/calculators/getters/monthly.ts#L11)*
 
 gets the monthly data on vnstat v1 and v2
 NOTE: it support multi interfaces by adding a + between them

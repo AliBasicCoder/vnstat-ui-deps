@@ -17,3 +17,4 @@ getters:
 - [getInterfacesList](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/master/docs/modules/_fetchers_.md#getinterfaceslist) gets the available interfaces from `vnstat --iflist`
 - [getStatic](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/master/docs/modules/_fetchers_.md#getstatic) gets a file from a them
 - [getThemeData](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/master/docs/modules/_fetchers_.md#getthemedata) gets a theme data.json file
+- [getThisName](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/master/docs/_index_.md#getthisname) gets the current theme's name

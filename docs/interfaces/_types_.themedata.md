@@ -23,7 +23,7 @@
 
 • **cssFiles**? : *string[]*
 
-Defined in types.ts:157
+*Defined in [types.ts:158](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L158)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **defaultOptions**: *[obj](../modules/_types_.md#obj)‹any›*
 
-Defined in types.ts:159
+*Defined in [types.ts:160](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L160)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **htmlFile**: *string*
 
-Defined in types.ts:155
+*Defined in [types.ts:156](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L156)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **jsFiles**: *string[]*
 
-Defined in types.ts:156
+*Defined in [types.ts:157](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L157)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **name**: *string*
 
-Defined in types.ts:154
+*Defined in [types.ts:155](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L155)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **options**: *[obj](../modules/_types_.md#obj)‹[Types](../modules/_types_.md#types)›*
 
-Defined in types.ts:158
+*Defined in [types.ts:159](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L159)*

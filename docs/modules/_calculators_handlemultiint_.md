@@ -14,7 +14,7 @@
 
 ▸ **handleMultiInt**(`interfaceName`: string, `data`: [VnstatData](_types_.md#vnstatdata), `func`: function): *[Data](_types_.md#data)*
 
-Defined in calculators/handleMultiInt.ts:3
+*Defined in [calculators/handleMultiInt.ts:3](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/calculators/handleMultiInt.ts#L3)*
 
 **Parameters:**
 

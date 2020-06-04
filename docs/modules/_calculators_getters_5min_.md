@@ -14,7 +14,7 @@
 
 ▸ **get5MinData**(`data`: [VnstatDataV2](_types_.md#vnstatdatav2), `interfaceName`: string): *[Data](_types_.md#data)*
 
-Defined in calculators/getters/5min.ts:11
+*Defined in [calculators/getters/5min.ts:11](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/calculators/getters/5min.ts#L11)*
 
 get the 5 minute data on vnstat v2.x
 NOTE: it support multi interfaces by adding a + between them

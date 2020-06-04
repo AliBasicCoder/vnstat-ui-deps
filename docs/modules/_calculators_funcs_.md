@@ -19,7 +19,7 @@
 
 ▸ **addZero**(`num`: number): *string*
 
-Defined in calculators/funcs.ts:17
+*Defined in [calculators/funcs.ts:17](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/calculators/funcs.ts#L17)*
 
 **Parameters:**
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **cs**(`num`: number, `isV1`: boolean): *number*
 
-Defined in calculators/funcs.ts:19
+*Defined in [calculators/funcs.ts:19](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/calculators/funcs.ts#L19)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ ___
 
 ▸ **dateObjToStr**(`date`: date): *string*
 
-Defined in calculators/funcs.ts:4
+*Defined in [calculators/funcs.ts:4](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/calculators/funcs.ts#L4)*
 
 **Parameters:**
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **dateToStr**(`date`: Date): *string*
 
-Defined in calculators/funcs.ts:7
+*Defined in [calculators/funcs.ts:7](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/calculators/funcs.ts#L7)*
 
 **Parameters:**
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **diff**(`d1`: Date, `d2`: Date): *number*
 
-Defined in calculators/funcs.ts:15
+*Defined in [calculators/funcs.ts:15](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/calculators/funcs.ts#L15)*
 
 **Parameters:**
 
@@ -101,7 +101,7 @@ ___
 
 ▸ **timeToStr**(`time`: time): *string*
 
-Defined in calculators/funcs.ts:12
+*Defined in [calculators/funcs.ts:12](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/calculators/funcs.ts#L12)*
 
 **Parameters:**
 

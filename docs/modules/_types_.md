@@ -39,7 +39,7 @@
 
 Ƭ **BooleanType**: *[Type](_types_.md#type)‹"boolean"›*
 
-Defined in types.ts:149
+*Defined in [types.ts:150](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L150)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 Ƭ **Config**: *object*
 
-Defined in types.ts:107
+*Defined in [types.ts:107](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L107)*
 
 #### Type declaration:
 
@@ -59,7 +59,7 @@ ___
 
 Ƭ **Data**: *object*
 
-Defined in types.ts:133
+*Defined in [types.ts:134](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L134)*
 
 #### Type declaration:
 
@@ -75,7 +75,7 @@ ___
 
 Ƭ **FullConfig**: *object*
 
-Defined in types.ts:110
+*Defined in [types.ts:110](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L110)*
 
 the full users config data scheme
 
@@ -99,7 +99,7 @@ ___
 
 Ƭ **FullData**: *object*
 
-Defined in types.ts:127
+*Defined in [types.ts:128](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L128)*
 
 #### Type declaration:
 
@@ -115,7 +115,7 @@ ___
 
 Ƭ **NumberType**: *[Type](_types_.md#type)‹"number"›*
 
-Defined in types.ts:151
+*Defined in [types.ts:152](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L152)*
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 Ƭ **ObjectType**: *object & [Type](_types_.md#type)‹"object"›*
 
-Defined in types.ts:145
+*Defined in [types.ts:146](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L146)*
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 Ƭ **StringType**: *object & [Type](_types_.md#type)‹"string"›*
 
-Defined in types.ts:141
+*Defined in [types.ts:142](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L142)*
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 Ƭ **Type**: *object*
 
-Defined in types.ts:137
+*Defined in [types.ts:138](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L138)*
 
 #### Type declaration:
 
@@ -151,7 +151,7 @@ ___
 
 Ƭ **Types**: *[ObjectType](_types_.md#objecttype) | [NumberType](_types_.md#numbertype) | [StringType](_types_.md#stringtype) | [BooleanType](_types_.md#booleantype)*
 
-Defined in types.ts:135
+*Defined in [types.ts:136](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L136)*
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 Ƭ **VnstatData**: *[VnstatDataV1](_types_.md#vnstatdatav1) | [VnstatDataV2](_types_.md#vnstatdatav2)*
 
-Defined in types.ts:103
+*Defined in [types.ts:103](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L103)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 Ƭ **VnstatDataV1**: *object*
 
-Defined in types.ts:22
+*Defined in [types.ts:22](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L22)*
 
 vnstat v1 data scheme
 
@@ -185,7 +185,7 @@ ___
 
 Ƭ **VnstatDataV2**: *object*
 
-Defined in types.ts:60
+*Defined in [types.ts:60](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L60)*
 
 vnstat v2 data scheme
 
@@ -203,7 +203,7 @@ ___
 
 Ƭ **date**: *object*
 
-Defined in types.ts:5
+*Defined in [types.ts:5](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L5)*
 
 #### Type declaration:
 
@@ -219,7 +219,7 @@ ___
 
 Ƭ **formattedData**: *[obj](_types_.md#obj)‹[obj](_types_.md#obj)‹[obj](_types_.md#obj)‹[rxTx](_types_.md#rxtx) & object›››*
 
-Defined in types.ts:105
+*Defined in [types.ts:105](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L105)*
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 Ƭ **obj**: *object*
 
-Defined in types.ts:1
+*Defined in [types.ts:1](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L1)*
 
 #### Type declaration:
 
@@ -239,7 +239,7 @@ ___
 
 Ƭ **rxTx**: *object*
 
-Defined in types.ts:16
+*Defined in [types.ts:16](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L16)*
 
 #### Type declaration:
 
@@ -253,7 +253,7 @@ ___
 
 Ƭ **time**: *object*
 
-Defined in types.ts:11
+*Defined in [types.ts:11](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L11)*
 
 #### Type declaration:
 
@@ -267,7 +267,7 @@ Defined in types.ts:11
 
 ▸ **isVnstatV1**(`obj`: any): *obj is VnstatDataV1*
 
-Defined in types.ts:100
+*Defined in [types.ts:100](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/types.ts#L100)*
 
 **Parameters:**
 

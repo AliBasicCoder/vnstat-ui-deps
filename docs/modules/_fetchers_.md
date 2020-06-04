@@ -22,19 +22,19 @@
 
 • **__global**:
 
-Defined in fetchers.ts:42
+*Defined in [fetchers.ts:42](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/fetchers.ts#L42)*
 
 ###  Window
 
 • **Window**:
 
-Defined in fetchers.ts:43
+*Defined in [fetchers.ts:43](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/fetchers.ts#L43)*
 
 ### `Optional` __cache
 
 • **__cache**? : *undefined | object*
 
-Defined in fetchers.ts:44
+*Defined in [fetchers.ts:44](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/fetchers.ts#L44)*
 
 ## Functions
 
@@ -42,7 +42,7 @@ Defined in fetchers.ts:44
 
 ▸ **getConfig**<**T**>(`reFetch?`: undefined | false | true): *Promise‹[FullConfig](_types_.md#fullconfig)‹Partial‹T›››*
 
-Defined in fetchers.ts:81
+*Defined in [fetchers.ts:81](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/fetchers.ts#L81)*
 
 gets the user's config file
 
@@ -64,7 +64,7 @@ ___
 
 ▸ **getData**(`reFetch?`: undefined | false | true): *Promise‹object | object›*
 
-Defined in fetchers.ts:56
+*Defined in [fetchers.ts:56](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/fetchers.ts#L56)*
 
 gets the vnstat json data from `vnstat --json`
 
@@ -82,7 +82,7 @@ ___
 
 ▸ **getInterfacesList**(`reFetch?`: undefined | false | true): *Promise‹string[]›*
 
-Defined in fetchers.ts:68
+*Defined in [fetchers.ts:68](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/fetchers.ts#L68)*
 
 gets the vnstat available interfaces from `vnstat --iflist`
 
@@ -100,7 +100,7 @@ ___
 
 ▸ **getStatic**<**T**>(`themeName`: string, `staticName`: string, `holeRes?`: undefined | false): *Promise‹T›*
 
-Defined in fetchers.ts:4
+*Defined in [fetchers.ts:4](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/fetchers.ts#L4)*
 
 get a file (static) from your theme directory
 
@@ -120,7 +120,7 @@ Name | Type | Description |
 
 ▸ **getStatic**<**T**>(`themeName`: string, `staticName`: string, `holeRes`: true): *Promise‹AxiosResponse‹T››*
 
-Defined in fetchers.ts:9
+*Defined in [fetchers.ts:9](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/fetchers.ts#L9)*
 
 get a file (static) from your theme directory
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **getThemeData**(`themeName`: string): *Promise‹[ThemeData](../interfaces/_types_.themedata.md)›*
 
-Defined in fetchers.ts:36
+*Defined in [fetchers.ts:36](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/fetchers.ts#L36)*
 
 get the themes data.json
 

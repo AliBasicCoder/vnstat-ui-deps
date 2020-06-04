@@ -40,6 +40,7 @@
 ### Functions
 
 * [getSelectedInterface](_index_.md#getselectedinterface)
+* [getThisName](_index_.md#getthisname)
 * [isV1Data](_index_.md#isv1data)
 * [isV2Data](_index_.md#isv2data)
 
@@ -229,7 +230,7 @@ ___
 
 ▸ **getSelectedInterface**(): *undefined | string*
 
-Defined in index.ts:12
+*Defined in [index.ts:20](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/index.ts#L20)*
 
 gets the selected interface from the `i` query param and null if not found
 
@@ -237,11 +238,23 @@ gets the selected interface from the `i` query param and null if not found
 
 ___
 
+###  getThisName
+
+▸ **getThisName**(): *Promise‹string›*
+
+*Defined in [index.ts:15](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/index.ts#L15)*
+
+get the current theme's name
+
+**Returns:** *Promise‹string›*
+
+___
+
 ###  isV1Data
 
 ▸ **isV1Data**(`data`: [VnstatData](_index_.md#vnstatdata)): *data is VnstatDataV1*
 
-Defined in index.ts:22
+*Defined in [index.ts:30](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/index.ts#L30)*
 
 detects if the data is vnstat v1
 
@@ -259,7 +272,7 @@ ___
 
 ▸ **isV2Data**(`data`: [VnstatData](_index_.md#vnstatdata)): *data is VnstatDataV2*
 
-Defined in index.ts:30
+*Defined in [index.ts:38](https://github.com/AliBasicCoder/vnstat-ui-deps/blob/b4245ac/src/index.ts#L38)*
 
 detects if the data is vnstat v2
 
