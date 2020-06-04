@@ -86,6 +86,8 @@ export async function getConfig<T>(
   const { data: config } = await axios.get<FullConfig<Partial<T>>>(
     "/api/config"
   );
+  config.config.client.themeConfig =
+    config.config.client.themesConfig[config.config.client.theme];
   window.__cache.config = config;
   return config;
 }

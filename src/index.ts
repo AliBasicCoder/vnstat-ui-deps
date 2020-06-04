@@ -1,4 +1,5 @@
 import { VnstatData, VnstatDataV1, VnstatDataV2 } from "./types";
+import { getConfig } from "./fetchers";
 
 export * from "./types";
 export * from "./fetchers";
@@ -7,6 +8,13 @@ export { getDailyData } from "./calculators/getters/daily";
 export { getHourlyData } from "./calculators/getters/hourly";
 export { getMonthlyData } from "./calculators/getters/monthly";
 export { getYearlyData } from "./calculators/getters/yearly";
+
+/**
+ * get the current theme's name
+ */
+export async function getThisName() {
+  return (await getConfig()).config.client.theme;
+}
 
 /** gets the selected interface from the `i` query param and null if not found */
 export function getSelectedInterface() {

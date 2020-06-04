@@ -116,6 +116,7 @@ export type FullConfig<T> = {
   config: {
     client: Config & {
       themeConfig: T;
+      themesConfig: obj<any>;
     };
     server: {
       port: number;
