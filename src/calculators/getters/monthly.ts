@@ -67,7 +67,7 @@ export function getMonthlyData(data: VnstatData, interfaceName: string): Data {
 
   for (const month of months) {
     labels.push(
-      `${monthsShortcuts[month.date.month]} ${String(month.date.year).slice(
+      `${monthsShortcuts[month.date.month - 1]} ${String(month.date.year).slice(
         0,
         2
       )}`
