@@ -42,7 +42,7 @@ export function getDailyData(data: VnstatData, interfaceName: string): Data {
       );
   }
 
-  if (!days) throw new Error(`Debug: Interface ${interfaceName} doesn't exits`);
+  if (!days) throw new Error(`Interface ${interfaceName} doesn't exits`);
 
   const isV1 = isVnstatV1(data);
 

@@ -26,8 +26,7 @@ export function get5MinData(data: VnstatDataV2, interfaceName: string): Data {
         new Date(`${dateObjToStr(fiveMin2.date)} ${timeToStr(fiveMin2.time)}`)
       )
     );
-  if (!fiveMins)
-    throw new Error(`Debug: Interface ${interfaceName} doesn't exits`);
+  if (!fiveMins) throw new Error(`Interface ${interfaceName} doesn't exits`);
   for (const fiveMin of fiveMins) {
     const dayStr = dateObjToStr(fiveMin.date);
     const date = new Date();

@@ -45,8 +45,7 @@ export function getMonthlyData(data: VnstatData, interfaceName: string): Data {
         )
       );
   }
-  if (!months)
-    throw new Error(`Debug: Interface ${interfaceName} doesn't exits`);
+  if (!months) throw new Error(`Interface ${interfaceName} doesn't exits`);
 
   const monthsShortcuts = [
     "Jan",

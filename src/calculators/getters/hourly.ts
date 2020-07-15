@@ -26,8 +26,7 @@ export function getHourlyData(data: VnstatData, interfaceName: string): Data {
           new Date(`${dateObjToStr(hour2.date)} ${hour2.id}:00`)
         )
       );
-    if (!hours)
-      throw new Error(`Debug: Interface ${interfaceName} doesn't exits`);
+    if (!hours) throw new Error(`Interface ${interfaceName} doesn't exits`);
 
     for (const hour of hours) {
       const dayStr = dateObjToStr(hour.date);
@@ -46,8 +45,7 @@ export function getHourlyData(data: VnstatData, interfaceName: string): Data {
           new Date(`${dateObjToStr(hour2.date)} ${hour2.time.hour}:00`)
         )
       );
-    if (!hours)
-      throw new Error(`Debug: Interface ${interfaceName} doesn't exits`);
+    if (!hours) throw new Error(`Interface ${interfaceName} doesn't exits`);
     for (const hour of hours) {
       const dayStr = dateObjToStr(hour.date);
       const date = new Date();

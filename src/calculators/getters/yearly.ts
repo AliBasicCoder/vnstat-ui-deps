@@ -26,8 +26,7 @@ export function getYearlyData(data: VnstatDataV2, interfaceName: string): Data {
         new Date(`01/01/${year2.date.year}`)
       )
     );
-  if (!years)
-    throw new Error(`Debug: Interface ${interfaceName} doesn't exits`);
+  if (!years) throw new Error(`Interface ${interfaceName} doesn't exits`);
   for (const year of years) {
     labels.push(year.date.year.toString());
     downData.push(year.rx);
